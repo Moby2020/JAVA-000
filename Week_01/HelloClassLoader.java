@@ -1,5 +1,6 @@
 import java.io.*;
 import java.lang.reflect.Method;
+import java.util.Optional;
 
 /**
  * 极客大学week01 第二题作业
@@ -10,9 +11,10 @@ public class HelloClassLoader extends ClassLoader {
 
     public static void main(String[] args) {
         try {
-            Object hello = new HelloClassLoader().findClass("Hello").newInstance();
-            Method method = hello.getClass().getDeclaredMethod("hello", null);
-            method.invoke(hello, null);
+            Class<?> clazz = new HelloClassLoader().findClass("Hello");
+            Method method = clazz.getDeclaredMethod("hello");
+            method.setAccessible(true);
+            method.invoke(clazz.newInstance());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -22,36 +24,31 @@ public class HelloClassLoader extends ClassLoader {
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         try {
             File file = new File("/Users/moby/Desktop/Hello/Hello.xlass");
-            byte[] bytes = getBytes(file);
-            return this.defineClass(name, bytes, 0, bytes.length);
+            Optional<byte[]> optional = getBytes(file);
+            if (optional.isPresent()) {
+                byte[] bytes = optional.get();
+                return defineClass(name, bytes, 0, bytes.length);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
         return super.findClass(name);
     }
 
-    public static byte[] getBytes(File file) {
-        FileInputStream fis = null;
-        ByteArrayOutputStream baos = null;
-        try {
-            fis = new FileInputStream(file);
-            baos = new ByteArrayOutputStream();
+    public static Optional<byte[]> getBytes(File file) {
+        try (FileInputStream fis = new FileInputStream(file);
+             ByteArrayOutputStream baos = new ByteArrayOutputStream();) {
             while (true) {
                 int read = fis.read();
-                if (read == -1) break;
-                int realRead = 255 - read;
-                baos.write(realRead);
+                if (read == -1) {
+                    break;
+                }
+                baos.write(255 - read);
             }
+            return Optional.ofNullable(baos.toByteArray());
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                baos.close();
-                fis.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            return Optional.empty();
         }
-        return baos.toByteArray();
     }
 }
