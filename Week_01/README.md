@@ -77,4 +77,25 @@ JVM将局部变量区当成一个数组，依次存放：this指针（仅非静�
 5. 通过Class.forName加载指定类，若指定参数initialize为false时；
 6. 通过ClassLoader默认的loadClass方法
 
- 
+#### 类加载器实例
+类的加载过程可以描述为：通过一个类的全限定名来捕获此类的class对象
+
+系统自带的类加载器由有
+- 启动类加载器(bootstrap class loader)：加载Java核心类，由C++实现，负责加载`/jre/lib/rt.jar`中的class
+ - 扩展类加载器(extensions class loader)：负责加载扩展目录`/jre/lib/ext/`下的class，或者是由`java.ext.dirs`系统属性指定目录中的JAR包
+  - 应用类加载器(app class loader)：加载应用程序路径下的类
+
+类加载器的三个特点
+- 双亲委派机制：即接收到加载请求时，会先将请求转发给父类、祖先类加载器；（若所有的类加载器都没有找到指定名称的类，则报错`ClassNotFoundException`)
+ - 负责依赖：类加载器加载某个类时，若发现该类依赖于另外几个类或接口，也会尝试加载这些依赖项；
+  - 缓存加载：某个类被一个类加载器加载后，会缓存该加载结果。
+
+一些实用技巧：
+1. 如何排查找不到Jar包的问题？
+2. 如何排查类的方法不一致的问题?
+3. 查看加载了哪些类，以及加载顺序：`在Java启动命令行参数上添加「-XX:+TraceClassLoading」如：$ java -XX:+TraceClassLoading 对象名`
+4. 怎么调整或修改ext和本地加载路径?
+5. 怎么运行期加载额外的jar包或者class呢？
+
+## Java内存模型
+   
