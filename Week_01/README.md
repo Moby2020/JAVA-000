@@ -107,6 +107,7 @@ JVM将局部变量区当成一个数组，依次存放：this指针（仅非静�
 5. 怎么运行期加载额外的jar包或者class呢？
 
 ## JVM内存结构
-
+JVM内部使用的Java内存模型，逻辑上划分为`线程栈`和`堆内存`两部分：
+![image](https://github.com/Moby2020/JAVA-000/tree/main/Week_01/noteImg/JVM.png)
 
    
