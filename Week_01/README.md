@@ -136,5 +136,29 @@ JVM参数
 2. `-Xms`: 堆内存初始化大小，与-Xmx大小一致，两者不一致时，堆内存扩容可能会导致性能抖动
 3. `-Xmn`: 设置新生代大小，建议为-Xmx的1/2～1/4，等价于-XX:NewSize
 4. `-Xss`: 设置每个线程栈字节数，如「-Xss 1m」指定线程栈为1MB
-5. `-XX`:MaxMetaspeaceSize=size，Java8默认不限制meta空间，不允许设置
-6. `-XX`:MaxDirectMemorySize=size，系统可用最大堆外内存
+5. `-XX:MaxMetaspeaceSize=size`，Java8默认不限制meta空间，不允许设置
+6. `-XX:MaxDirectMemorySize=size`，系统可用最大堆外内存
+
+#### Java内存模型与 happens-before 关系
+`happens-before`是Java内存模型中一个重要概念，`happens-before`用来描述两个操作的内存可见性
+- 如果操作X `happens-before` 操作Y，那么 X 的结果对于 Y 可见
+ - 此外`happens-before`还具有传递性。若操作X `happens-before` 操作Y，操作Y `happens-before` 操作Z，则操作X `happens-before` 操作Z
+
+Java内存模型定义了下述线程间`happens-before`关系：
+1. 同一个线程中，靠前的字节码`happens-before`靠后的字节码（这并不意味着前者一定比后者先执行，若后者没有数据依赖于前者，它们可能会被重排序）
+2. 解锁操作`happens-before`对同一把锁的加锁操作
+3. `volatile`字段的写操作`happens-before`对同一字段的读操作（是指在两个不同的线程中）
+4. 线程启动操作(Thread.start())`happens-before`该线程第一个操作
+5. 线程的最后一个操作 `happens-before` 它的终止事件（即其他线程通过 Thread.isAlive() 或 Thread.join() 判断该线程是否中止）
+6. 构造器中的最后一个操作 `happens-before` 析构器的第一个操作
+
+#### Java内存模型底层实现
+Java 内存模型是通过`内存屏障(memory barrier)`来禁止重排序。即时编译器会针对前面提到的每一个 `happens-before` 关系，向正在编译的目标方法中插入相应的读读、读写、写读以及写写内存屏障。其中只有写读内存屏障会被替换成具体 CPU 指令，其余为空操作。
+- 例如，对于 `volatile` 字段，即时编译器将在 `volatile` 字段的读写操作前后各插入一些内存屏障。然而，在 X86_64 架构上，只有 `volatile` 字段写操作之后的写读内存屏障需要用具体指令来替代。该具体指令的效果，可以简单理解为强制刷新处理器的写缓存。
+ - 强制刷新写缓存，将使得当前线程写入 `volatile` 字段的值（以及写缓存中已有的其他内存修改），同步至主内存之中。
+  - 由于内存写操作会同时无效化其他处理器所持有的、指向同一地址的缓存行，因此可以认为其他处理器可以立即看到`volatile`字段的最新值。
+  
+
+
+
+
