@@ -109,7 +109,7 @@ JVM将局部变量区当成一个数组，依次存放：this指针（仅非静�
 ## JVM内存结构
 JVM内部使用的Java内存模型，逻辑上划分为`线程栈`和`堆内存`两部分：
 
-![image](https://github.com/Moby2020/JAVA-000/tree/main/Week_01/noteImg/JVM.png)
+![image](./noteImg/JVM.png)
 
 JVM中，每个正在运行的线程都有自己的线程栈
 - 每个线程都只能访问自己的线程栈，且不能访问(看不见)其他线程的局部变量
@@ -121,13 +121,13 @@ JVM中，每个正在运行的线程都有自己的线程栈
 
 栈内存结构
 
-![image](https://github.com/Moby2020/JAVA-000/tree/main/Week_01/noteImg/stack.png)
+![image](./noteImg/stack.png)
 
 每启动一个线程，JVM就会在栈空间分配对应的线程栈，如1MB（-Xss1m）
 
 堆内存结构
 
-![image](https://github.com/Moby2020/JAVA-000/tree/main/Week_01/noteImg/Heap.png)
+![image](./noteImg/Heap.png)
 
 堆内存是所有线程共用的内存空间，理论上大家都可以访问里面的内容。
 
@@ -138,6 +138,9 @@ JVM参数
 4. `-Xss`: 设置每个线程栈字节数，如「-Xss 1m」指定线程栈为1MB
 5. `-XX:MaxMetaspeaceSize=size`，Java8默认不限制meta空间，不允许设置
 6. `-XX:MaxDirectMemorySize=size`，系统可用最大堆外内存
+
+#### Java内存模型与 as-if-serial
+`as-if-serial`语义是指：不管怎样重排序（编译器和处理器为了提高并行度），单线程程序的执行结果不能被改变。因此编译器和处理器不会对存在依赖关系的操作做重排序。
 
 #### Java内存模型与 happens-before 关系
 `happens-before`是Java内存模型中一个重要概念，`happens-before`用来描述两个操作的内存可见性
