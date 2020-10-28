@@ -1,4 +1,4 @@
-#### 01 使用 GCLogAnalysis.java 自己演练一遍串行/并行/CMS/G1的案例
+### 01 使用 GCLogAnalysis.java 自己演练一遍串行/并行/CMS/G1的案例
 平均每次生成对象数量：
 | GC/最大堆内存 | 512M | 1024M | 2048M |
 | ------ | ------ |------ |------ |
@@ -15,7 +15,7 @@ GC发生次数以及系统暂停时间：
 | CMS GC | 12次GC,平均每次耗时0.02秒;5次Full GC，平均每次耗时0.05秒 | 10次GC,平均每次耗时0.04秒;1次Full GC耗时0.06秒 | 6次GC,平均每次耗时0.06秒 |
 | G1 GC | / | 4次[GC cleanup 506M->505M(1024M), 0.0007034 secs] | / |
 
-#### 02 使用压测工具(wrk或sb)，演练gateway-server-0.0.1-SNAPSHOT.jar 示例
+### 02 使用压测工具(wrk或sb)，演练gateway-server-0.0.1-SNAPSHOT.jar 示例
 使用命令示例：`wrk -t 16 -c 400 -d 30s http://localhost:8088/api/hello`
 
 平均每秒处理完成请求个数：
@@ -35,3 +35,26 @@ GC发生次数以及系统暂停时间：
 | G1 GC | 4.02MB | 6.00MB | 5.78MB |
  
  如上表所示：GC堆内存相同时，各个版本的 GC 压测结构都差不多。
+ 
+### 03 写一段代码，使用HttpClient或OkHttp访问 http://localhost:8803，代码提交到 github。
+添加 Maven 依赖
+```
+<dependency>
+	<groupId>org.apache.httpcomponents</groupId>
+	<artifactId>httpclient</artifactId>
+	<version>4.3.5</version>
+</dependency>
+
+<dependency>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>commons-io</artifactId>
+	<version>1.3.2</version>
+</dependency>
+```
+
+Code:
+![image](./imgs/homework_code.png)
+
+result:
+![image](./imgs/homework_result.png)
+
