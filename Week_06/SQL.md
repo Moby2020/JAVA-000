@@ -1,6 +1,9 @@
+```
 create database if not exists shop_mall;
+```
 
 --用户表
+```
 create table if not exists users(
 	user_id int(11) not null auto_increment comment '用户主键',
 	user_name varchar(30) not null comment '用户名',
@@ -13,8 +16,10 @@ create table if not exists users(
 	update_time bigint(64) not null comment '修改时间',
 	PRIMARY KEY(user_id)
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='用户表';
+```
 
 --商品表
+```
 create table if not exists products(
 	product_id int(11) not null auto_increment comment '商品主键',
 	product_name varchar(50) not null comment '商品名称',
@@ -27,8 +32,10 @@ create table if not exists products(
 	update_time bigint(64) not null comment '修改时间',
 	PRIMARY KEY(product_id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='商品表';
+```
 
 -- 订单表
+```
 create table if not exists orders(
 	order_id int(11) not null auto_increment comment '订单主键',
 	user_id int(11) not null comment '用户id',
@@ -41,3 +48,4 @@ create table if not exists orders(
 	update_time bigint(64) not null comment '修改时间',
 	PRIMARY KEY(order_id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='订单表';
+```
