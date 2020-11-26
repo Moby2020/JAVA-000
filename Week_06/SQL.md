@@ -1,9 +1,9 @@
-```
+```SQL
 create database if not exists shop_mall;
 ```
 
 --用户表
-```
+```SQL
 create table if not exists users(
 	user_id int(11) not null auto_increment comment '用户主键',
 	user_name varchar(30) not null comment '用户名',
@@ -19,7 +19,7 @@ create table if not exists users(
 ```
 
 --商品表
-```
+```SQL
 create table if not exists products(
 	product_id int(11) not null auto_increment comment '商品主键',
 	product_name varchar(50) not null comment '商品名称',
@@ -35,7 +35,7 @@ create table if not exists products(
 ```
 
 -- 订单表
-```
+```SQL
 create table if not exists orders(
 	order_id int(11) not null auto_increment comment '订单主键',
 	user_id int(11) not null comment '用户id',
