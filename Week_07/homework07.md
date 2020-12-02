@@ -47,3 +47,7 @@ set session sql_mode = 'ONLY_FULL_GROUP_BY,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FO
 ```
 ![imgage](./imgs/strict.png)
 
+
+### 补交第六周作业（如果有用的话）
+[week06](https://github.com/Moby2020/JAVA-000/blob/main/Week_06/SQL.md)
+
