@@ -51,7 +51,6 @@ set session sql_mode = 'ONLY_FULL_GROUP_BY,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FO
 [代码路径](https://github.com/Moby2020/JAVA-000/tree/main/Week_07/demo1/src/main)
 [测试路径](https://github.com/Moby2020/JAVA-000/blob/main/Week_07/demo1/src/test/java/com/example/demo1/service/UserServiceImplTest.java)
 
-测试结果截图
 
 数据库切换
 ![imgage](./imgs/toSlave.png)
@@ -62,6 +61,15 @@ set session sql_mode = 'ONLY_FULL_GROUP_BY,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FO
 
 插入结果
 ![imgage](./imgs/insert.png)
+
+
+### 作业 3、读写分离，数据库框架版本2.0
+[代码路径](https://github.com/Moby2020/JAVA-000/blob/main/Week_07/demo2/src/main/java/com/example/demo2/ShardingMasterSlaveDataSource.java)
+[测试路径](https://github.com/Moby2020/JAVA-000/blob/main/Week_07/demo2/src/test/java/com/example/demo2/Demo2ApplicationTests.java)
+
+测试截图
+![imgage](./imgs/03.png)
+
 
 ### 补交第六周作业（如果有用的话）
 [week06](https://github.com/Moby2020/JAVA-000/blob/main/Week_06/SQL.md)
