@@ -1,5 +1,5 @@
 ### （必做一）对订单表数据进行水平分库分表，拆分2个库，每个库16张表
-[代码]()
+[代码](https://github.com/Moby2020/JAVA-000/tree/main/Week_08/demo0802)
 
 SQL
 ```SQL
@@ -10,6 +10,6 @@ CREATE TABLE IF NOT EXISTS `t_order` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 ```
 
-[配置文件]()
+[配置文件](https://github.com/Moby2020/JAVA-000/tree/main/Week_08/conf)
 
 ### （必做二）基于hmily TCC或ShardingSphere的Atomikos XA实现一个简单的分布式事务应用demo（二选一），提交到github。
