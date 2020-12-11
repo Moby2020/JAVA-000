@@ -1,3 +1,9 @@
+###############################################################################################################
+# 准备两个数据库：db_0 和 db_1
+# 分别在 db_0 和 db_1 创建两张表
+#CREATE TABLE IF NOT EXISTS t_order_0 (order_id BIGINT NOT NULL, user_id INT NOT NULL, PRIMARY KEY (order_id));
+#CREATE TABLE IF NOT EXISTS t_order_1 (order_id BIGINT NOT NULL, user_id INT NOT NULL, PRIMARY KEY (order_id));
+##############################################################################################################
 dataSources:
   ds_0: !!com.zaxxer.hikari.HikariDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
