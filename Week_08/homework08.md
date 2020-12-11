@@ -84,4 +84,6 @@ props:
   check-table-metadata-enabled: false
 ```
 
-### （必做二）基于hmily TCC或ShardingSphere的Atomikos XA实现一个简单的分布式事务应用demo（二选一），提交到github。
+### （必做二）基于ShardingSphere的Atomikos XA实现一个简单的分布式事务应用
+
+[作业连接](https://github.com/Moby2020/JAVA-000/blob/main/Week_08/demo0803/src/main/java/com/example/demo0803/Demo0803Application.java)
