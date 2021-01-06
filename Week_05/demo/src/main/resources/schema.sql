@@ -1,1 +1,0 @@
-CREATE TABLE student (ID INT IDENTITY, name VARCHAR(64));
