@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "myproper",
+      "type": "com.example.demo.starter.StudentStarterProperties",
+      "sourceType": "com.example.demo.starter.StudentStarterProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "myproper.s-id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.starter.StudentStarterProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "myproper.s-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.starter.StudentStarterProperties",
+      "defaultValue": "test"
+    }
+  ],
+  "hints": []
+}

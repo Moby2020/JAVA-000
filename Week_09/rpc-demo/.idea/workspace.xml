@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6d7b785-bb7a-4792-ad63-e26fa877628b" name="Default Changelist" comment="自定义RPC的程序">
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/Hello.xlass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/HelloClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/JvmClassLoaderPrintPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/homework2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/homework3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/noteImg/Heap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/noteImg/JVM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/noteImg/stack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02/HttpDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02/homework.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02/imgs/homework_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02/imgs/homework_result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_04/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_04/homework.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_04/img/homework2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_mockito_mockito_core_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_aop_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_beans_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_context_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_core_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_expression_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_test_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_tx_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_web_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/annotation/Student03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/datasource/hikari/HikariDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/datasource/jdbc/NativeJdbc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/datasource/jdbc/NativeJdbcWithTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/dynamicProxy/DynamicProxyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/dynamicProxy/DynamicProxyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/dynamicProxy/ProxyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/factory/Student02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/factory/StudentFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/starter/ISchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/starter/Klass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/starter/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/starter/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/starter/StudentAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/starter/StudentStarterProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/java/com/example/demo/xml/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/test/java/com/example/demo/annotation/StudentAnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/test/java/com/example/demo/dynamicProxy/DynamicProxyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/test/java/com/example/demo/factory/FactoryStudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/test/java/com/example/demo/starter/StudentStartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/demo/src/test/java/com/example/demo/xml/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_06/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_06/SQL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/Demo1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/aop/DataSourceContextAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/common/CommonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/common/DataSourceContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/common/DataSourceSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/common/DynamicDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/common/DynamicDataSourceEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/entity/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/java/com/example/demo1/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/test/java/com/example/demo1/Demo1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo1/src/test/java/com/example/demo1/service/UserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo2/src/main/java/com/example/demo2/Demo2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo2/src/main/java/com/example/demo2/ShardingMasterSlaveDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/demo2/src/test/java/com/example/demo2/Demo2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/homework07.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/data1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/insert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/listAll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/strict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/time1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/time2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/toMaster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/imgs/toSlave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/my_master.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/my_slave.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/conf/config-sharding.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/conf/server.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/main/java/com/example/demo0802/Demo0802Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/main/java/com/example/demo0802/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/main/java/com/example/demo0802/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/main/resources/mybatis/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/main/resources/sql/create_order_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0802/src/test/java/com/example/demo0802/OrderMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0803/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0803/src/main/java/com/example/demo0803/Demo0803Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/demo0803/src/main/resources/config-sharding.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/homework08.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework09.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/api/RpcfxRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/api/RpcfxResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/client/proxy/RpcClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/client/proxy/RpcClientCglib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/client/proxy/RpcClientJdk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/client/proxy/RpcfxCglibInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/client/proxy/RpcfxJdkInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/client/request/RequestProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/exection/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/com/example/demo/server/RpcServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/api/RpcfxRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/api/RpcfxResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/client/proxy/RpcClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/client/proxy/RpcClientCglib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/client/proxy/RpcClientJdk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/client/proxy/RpcfxCglibInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/client/proxy/RpcfxJdkInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/client/request/RequestProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/exection/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/com/example/demo/server/RpcServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/com/example/demo/model/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/com/example/demo/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/com/example/demo/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/com/example/demo/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/target/classes/com/example/demo/model/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/target/classes/com/example/demo/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/target/classes/com/example/demo/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/target/classes/com/example/demo/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/target/classes/com/example/demo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-client/src/main/java/com/example/demo/ClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-client/target/classes/com/example/demo/ClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/src/main/java/com/example/demo/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/src/main/java/com/example/demo/config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/src/main/java/com/example/demo/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/target/classes/com/example/demo/ServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/target/classes/com/example/demo/config/BeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/target/classes/com/example/demo/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-server/target/classes/com/example/demo/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/api/RpcRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/api/RpcResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/netty/client/RpcClientSyncHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/netty/client/RpcNettyClientSync.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/netty/common/RpcDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/netty/common/RpcEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/netty/common/RpcProtocol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/netty/server/RpcNettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/netty/server/RpcServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/proxy/RpcClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/proxy/RpcClientCglib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/proxy/RpcClientJdk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/proxy/RpcInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-core/src/main/java/com/geekbang/rpc/demo/proxy/RpcProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-api/src/main/java/com/geekbang/rpc/demo/model/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-api/src/main/java/com/geekbang/rpc/demo/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-api/src/main/java/com/geekbang/rpc/demo/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-api/src/main/java/com/geekbang/rpc/demo/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-api/src/main/java/com/geekbang/rpc/demo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-client/src/main/java/com/geekbang/rpc/demo/ClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-server/src/main/java/com/geekbang/rpc/demo/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-server/src/main/java/com/geekbang/rpc/demo/config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-server/src/main/java/com/geekbang/rpc/demo/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-netty-demo/rpcfx-demo-server/src/main/java/com/geekbang/rpc/demo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_10/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_11/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_12/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_13/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_14/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_15/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Maven/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lfspcXjOP4ApQhEbANSfJHbcLu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.ClientApplication">
+    <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ClientApplication" />
+      <module name="rpcfx-demo-client" />
+      <option name="VM_PARAMETERS" value="-Dfastjson.parser.autoTypeAccept=com.example.demo." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rpcfx-demo-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientApplication" />
+      <item itemvalue="Spring Boot.ServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientApplication" />
+        <item itemvalue="Spring Boot.ServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6d7b785-bb7a-4792-ad63-e26fa877628b" name="Default Changelist" comment="" />
+      <created>1607999663829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607999663829</updated>
+      <workItem from="1607999665182" duration="333000" />
+      <workItem from="1608000581251" duration="148000" />
+      <workItem from="1608016875842" duration="6726000" />
+      <workItem from="1608037649889" duration="528000" />
+      <workItem from="1608046810834" duration="43000" />
+      <workItem from="1608102225794" duration="6862000" />
+      <workItem from="1608124686513" duration="788000" />
+      <workItem from="1608127765593" duration="420000" />
+      <workItem from="1608259820645" duration="538000" />
+    </task>
+    <task id="LOCAL-00001" summary="自定义RPC的程序">
+      <created>1608127871075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608127871075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自定义RPC的程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义RPC的程序" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="128" y="0" key="#Project_Structure" timestamp="1608025591862">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="128" y="0" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1608025591862" />
+    <state x="104" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608104513373">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1608104513373" />
+    <state x="0" y="25" width="1280" height="696" key="#com.intellij.ide.util.MemberChooser" timestamp="1608025340065">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="0" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1608025340065" />
+    <state x="0" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.25.1280.696" timestamp="1608024038144" />
+    <state x="0" y="25" width="1280" height="696" key="#com.intellij.ide.util.MemberChooser/0.25.1280.696@0.25.1280.696" timestamp="1608024038186" />
+    <state x="0" y="25" width="1280" height="696" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1608017064617">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="0" y="25" width="1280" height="696" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.800@0.0.1280.800" timestamp="1608017064617" />
+    <state x="0" y="25" width="1280" height="696" key="CommitChangelistDialog2" timestamp="1608260098925">
+      <screen x="0" y="25" width="1280" height="696" />
+    </state>
+    <state x="0" y="25" width="970" height="696" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1608260098854" />
+    <state width="1280" height="696" key="CommitChangelistDialog2/0.25.1280.696@0.25.1280.696" timestamp="1608260098925" />
+    <state width="1238" height="403" key="GridCell.Tab.0.bottom" timestamp="1608124362153">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608124362153" />
+    <state width="1238" height="403" key="GridCell.Tab.0.bottom/0.25.1280.696@0.25.1280.696" timestamp="1608104583239" />
+    <state width="1238" height="403" key="GridCell.Tab.0.center" timestamp="1608124362152">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608124362152" />
+    <state width="1238" height="403" key="GridCell.Tab.0.center/0.25.1280.696@0.25.1280.696" timestamp="1608104583238" />
+    <state width="1238" height="403" key="GridCell.Tab.0.left" timestamp="1608124362151">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608124362151" />
+    <state width="1238" height="403" key="GridCell.Tab.0.left/0.25.1280.696@0.25.1280.696" timestamp="1608104583237" />
+    <state width="1238" height="403" key="GridCell.Tab.0.right" timestamp="1608124362152">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608124362152" />
+    <state width="1238" height="403" key="GridCell.Tab.0.right/0.25.1280.696@0.25.1280.696" timestamp="1608104583239" />
+    <state width="1238" height="403" key="GridCell.Tab.1.bottom" timestamp="1608124362149">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608124362149" />
+    <state width="1238" height="403" key="GridCell.Tab.1.center" timestamp="1608124362148">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1608124362148" />
+    <state width="1238" height="403" key="GridCell.Tab.1.left" timestamp="1608124362148">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1608124362148" />
+    <state width="1238" height="403" key="GridCell.Tab.1.right" timestamp="1608124362149">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="403" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1608124362149" />
+    <state width="1238" height="340" key="GridCell.Tab.2.bottom" timestamp="1608124362140">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="340" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608124362140" />
+    <state width="1238" height="340" key="GridCell.Tab.2.center" timestamp="1608124362139">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="340" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1608124362139" />
+    <state width="1238" height="340" key="GridCell.Tab.2.left" timestamp="1608124362139">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="340" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1608124362139" />
+    <state width="1238" height="340" key="GridCell.Tab.2.right" timestamp="1608124362139">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="340" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1608124362139" />
+    <state x="156" y="36" key="SettingsEditor" timestamp="1608000588785">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="156" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1608000588785" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1608127889029">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608127889028" />
+    <state x="46" y="60" key="new project wizard" timestamp="1608105393547">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="46" y="60" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1608105393547" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1608103153784">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608103153784" />
+  </component>
+</project>

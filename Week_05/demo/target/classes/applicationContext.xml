@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+    <!--<context:component-scan base-package="com.example.demo.datasource" />-->
+
+    <jdbc:embedded-database id="dataSource" type="H2">
+        <jdbc:script location="schema.sql" />
+        <jdbc:script location="data.sql" />
+    </jdbc:embedded-database>
+
+    <!--<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="org.h2.Driver"/>
+        <property name="url" value="jdbc:h2:mem:dataSource"/>
+        <property name="username" value="sa"/>
+        <property name="password" value=""/>
+    </bean>-->
+
+    <bean id="student1" class="com.example.demo.xml.Student">
+        <property name="id" value="1" />
+        <property name="name" value="Moby001" />
+    </bean>
+</beans>
